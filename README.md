@@ -46,8 +46,10 @@ OAuth is an authentication protocol that allows you to approve one application i
 
 1. [bcrypt](https://www.npmjs.com/package/bcrypt)
 A password hashing program - it encodes a password for transmission
+
 2. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 a compact and self-contained way for securely transmitting information between parties
+
 3. [passport](https://www.npmjs.com/package/passport)
 Authentication middleware for Node
 
