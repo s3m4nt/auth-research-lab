@@ -25,10 +25,12 @@ The action or fact of authorizing or being authorized.
 Authentication is the act of proving you are a specific user, authorization is the process of being granted access. 
 
 5. *Sessions vs Token based auth*
+- Token based auth is standard
 Session based authentication is stored on the server. 
 Token based authentication is one in which the user state is stored on the client.
 
-6. *json web token (also know as a jwt)*
+6. *json web token (also know as a jwt)* Pronounced JAWT
+- NOT ENCODED or Encrytpted!
 JSON Web Token (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed.
 
 7. *Encoding, encryption and hashing* along with the uses for and differences between the three
