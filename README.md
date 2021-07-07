@@ -1,6 +1,3 @@
-# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Auth Research Lab
-
----
 
 Authentication is a complex and exciting topic that involves using many of the concepts we've already studied as well as several new ideas. 
 
@@ -19,19 +16,41 @@ Fork and clone this repository and answer the questions as you research directly
 #### Define the following
 
 1. *Authentication*
+The act of proving an assertion. Authentication is the process of verifying identity. 
+
 2. *Authorization*
+The action or fact of authorizing or being authorized.
+
 3. Explain how *authentication* and *authorization* are related but distinct concepts.
+Authentication is the act of proving you are a specific user, authorization is the process of being granted access. 
+
 5. *Sessions vs Token based auth*
+Session based authentication is stored on the server. 
+Token based authentication is one in which the user state is stored on the client.
+
 6. *json web token (also know as a jwt)*
+JSON Web Token (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed.
+
 7. *Encoding, encryption and hashing* along with the uses for and differences between the three
+-Encoding: Reversible transformation of data format, used to preserve usability of data.
+-Hashing: Is a one-way summary of data, cannot be reversed, used to validate the integrity of data.
+-Encryption: Secure encoding of data used to protect confidentiality of data.
+
 8. *oAuth* (pronounced oh-Auth)
+OAuth is an authentication protocol that allows you to approve one application interacting with another on your behalf without giving away your password. Such as when you use your Google account to authorize other 3rd party vendors. 
 
 #### Explore and then describe the following npm packages:
 
 1. [bcrypt](https://www.npmjs.com/package/bcrypt)
+A password hashing program - it encodes a password for transmission
 2. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+a compact and self-contained way for securely transmitting information between parties
 3. [passport](https://www.npmjs.com/package/passport)
+Authentication middleware for Node
+
     * also describe what a *strategy* is in the context of this npm package
+
+Authentication mechanisms, known as strategies, are packaged as individual modules. Applications can choose which strategies to employ, without creating unnecessary dependencies.
 
 ---
 
