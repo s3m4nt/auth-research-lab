@@ -25,7 +25,7 @@ The action or fact of authorizing or being authorized.
 Authentication is the act of proving you are a specific user, authorization is the process of being granted access. 
 
 5. *Sessions vs Token based auth*
-- Token based auth is standard
+.... Token based auth is standard
 Session based authentication is stored on the server. 
 Token based authentication is one in which the user state is stored on the client.
 
